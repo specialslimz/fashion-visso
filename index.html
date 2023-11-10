@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Viss Fashions</title>
+    <!-- google font  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap"
+      rel="stylesheet"
+    />
+    <!-- bootstrap css link -->
+    <link rel="icon" type="image/x-icon" href="./image/viss.png" />
+
+    <!-- css  -->
+    <link rel="stylesheet" href="style.css" />
+    <!-- script  -->
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <!-- Navigation Section -->
+    <header class="header">
+      <nav class="nav marginauto">
+        <div class="nav__logo">Viss Fashions</div>
+        <ul class="nav__links">
+          <li class="nav__item"><a class="nav__link" href="#">About</a></li>
+          <li class="nav__item"><a class="nav__link" href="#">Clothing</a></li>
+          <li class="nav__item">
+            <a class="nav__link" href="#">Accessories</a>
+          </li>
+          <li class="nav__item"><a class="nav__link" href="#">Services</a></li>
+        </ul>
+        <div class="nav__btn">
+          <button class="nav__login nav_btns">Log in</button>
+          <button class="nav__signup nav_btns">Sign up</button>
+        </div>
+        <div class="open">
+          <div class=".menu_btn">
+            <img src="./image/hambuger.svg" alt="hamburger" />
+          </div>
+        </div>
+        <div class="close">
+          <div class=".menu_close">
+            <img src="./image/closebtn.svg" alt="" />
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- hero  Section -->
+    <section class="hero__section marginauto">
+      <div class="hero__container">
+        <h1>Trendiest Fashion ever</h1>
+        <p>
+          When you are in doubt,<br />
+          wear a Viss Fashions <br />Denim
+        </p>
+        <button>Buy now</button>
+      </div>
+      <picture class="hero__img_container">
+        <img src="./image/hero-img.png" class="hero__img" alt="hero-img" />
+      </picture>
+    </section>
+
+    <!-- login/signup form -->
+    <div class="login login__form__show hidden">
+      <div class="login__layer">
+        <div class="login__container">
+          <div class="login__left">
+            <header class="login__header">
+              <img src="./image/login-logo.svg" alt="login-logo" />
+              <h1>Log in or Sign up</h1>
+              <p>Use your email or other serivce to continue with us</p>
+            </header>
+            <div class="login__btns">
+              <button class="login__btn">
+                <img src="./image/facebook.svg" alt="" /> Continue with Facebook
+              </button>
+              <button class="login__btn">
+                <img src="./image/google.svg" alt="" /> Continue with Google
+              </button>
+              <button class="login__btn">
+                <img src="./image/apple.svg" alt="" /> Continue with Apple
+              </button>
+              <button class="login__btn">
+                <img src="./image/twitter.svg" alt="" /> Continue with Twitter
+              </button>
+              <button class="login__btn">
+                <img src="./image/email.svg" alt="" /> Continue with email
+              </button>
+              <button class="login__btn">
+                <img src="./image/phone.svg" alt="" />Continue with phone
+              </button>
+            </div>
+          </div>
+          <picture class="login__right">
+            <img src="./image/login form.svg" alt="form-logo" />
+          </picture>
+        </div>
+        <div class="close__btns">
+          <img class="close_btn" src="./image/close btn.svg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div class="overlay hidden"></div>
+  </body>
+</html>
